@@ -58,4 +58,4 @@ clippedofferservice:
 
 gallerySimplification:
   enabled: true
-  configPath: static/galleryconfig/gallery_Business_rules_np.json   
+  configPath: divisionsConfiguration_local.json   
