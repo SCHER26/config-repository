@@ -1,67 +1,69 @@
-emom-appdata-config:
-'248':
-  ruleDesc: ItemYouBuy-WeeklyAdCoupon
-  houseHoldIdEndings:
-  - '1'
-  - '2'
-  - '3'
-  acceptedEvents:
-  - Weekly Ad Coupons
-  purchaseIndicator: B
-  enableSCOffers: 'false'
-  enableMFOffers: 'false'
-  enablePDOffers: 'true'
-'910':
-  ruleDesc: ItemYouBuy-WeeklyAdCoupon
-  houseHoldIdEndings:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  acceptedEvents:
-  - Weekly Ad Coupons
-  purchaseIndicator: B
-  enableSCOffers: 'false'
-  enableMFOffers: 'false'
-  enablePDOffers: 'true'
-'1630':
-  ruleDesc: ItemYouBuy-WeeklyAdCoupon
-  houseHoldIdEndings:
-  - '1'
-  - '2'
-  - '3'
-  acceptedEvents:
-  - Weekly Ad Coupons
-  purchaseIndicator: B
-  enableSCOffers: 'false'
-  enableMFOffers: 'false'
-  enablePDOffers: 'true'
-'1953':
-  ruleDesc: MinusMF-WeeklyAdCoupon
-  houseHoldIdEndings:
-  - '3'
-  - '9'
-  acceptedEvents:
-  - Weekly Ad Coupons
-  - Emilie Thanksgiving
-  - 2000NewEvent2
-  enableSCOffers: 'true'
-  enableMFOffers: 'false'
-  enablePDOffers: 'true'
-'3031':
-  ruleDesc: MinusMF-WeeklyAdCoupon
-  houseHoldIdEndings:
-  - '4'
-  - '6'
-  - '7'
-  acceptedEvents:
-  - Weekly Ad Coupons
-  enableSCOffers: 'true'
-  enableMFOffers: 'false'
-  enablePDOffers: 'true'
+---
+xapi-static-data:
+  galleryrules:
+    '248':
+      ruleDesc: ItemYouBuy-WeeklyAdCoupon
+      houseHoldIdEndings:
+      - '1'
+      - '2'
+      - '3'
+      acceptedEvents:
+      - Weekly Ad Coupons
+      purchaseIndicator: B
+      enableSCOffers: 'false'
+      enableMFOffers: 'false'
+      enablePDOffers: 'true'
+    '910':
+      ruleDesc: ItemYouBuy-WeeklyAdCoupon
+      houseHoldIdEndings:
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '0'
+      acceptedEvents:
+      - Weekly Ad Coupons
+      purchaseIndicator: B
+      enableSCOffers: 'false'
+      enableMFOffers: 'false'
+      enablePDOffers: 'true'
+    '1630':
+      ruleDesc: ItemYouBuy-WeeklyAdCoupon
+      houseHoldIdEndings:
+      - '1'
+      - '2'
+      - '3'
+      acceptedEvents:
+      - Weekly Ad Coupons
+      purchaseIndicator: B
+      enableSCOffers: 'false'
+      enableMFOffers: 'false'
+      enablePDOffers: 'true'
+    '1953':
+      ruleDesc: MinusMF-WeeklyAdCoupon
+      houseHoldIdEndings:
+      - '3'
+      - '9'
+      acceptedEvents:
+      - Weekly Ad Coupons
+      - Emilie Thanksgiving
+      - 2000NewEvent2
+      enableSCOffers: 'true'
+      enableMFOffers: 'false'
+      enablePDOffers: 'true'
+    '3031':
+      ruleDesc: MinusMF-WeeklyAdCoupon
+      houseHoldIdEndings:
+      - '4'
+      - '6'
+      - '7'
+      acceptedEvents:
+      - Weekly Ad Coupons
+      enableSCOffers: 'true'
+      enableMFOffers: 'false'
+      enablePDOffers: 'true'
