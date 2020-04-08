@@ -5,5 +5,5 @@ spring:
               
 
 gallerySimplification:
-  enabled: true
+  enabled: true 
   configPath: divisionsConfiguration_local.json   
