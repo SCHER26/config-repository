@@ -3,58 +3,6 @@ spring:
   profiles:
     active: local
               
-okta:
-  issuer: https://abs-qai.oktapreview.com/oauth2/ause38gc8mIZeAkyj0h7
-  healthStatusUrl: https://abs-qai.oktapreview.com/oauth2/ause38gc8mIZeAkyj0h7
-  enabled: true
-
-j4u:
-  baseUrl: https://nimbus-qa1.safeway.com
-  j4uHealthCheckUrl: https://nimbus-qa1.safeway.com
-  
-companionservice: 
-  baseUrl: http://localhost:9000
-  healthurl: https://emju-offers-dev.apps.np.stratus.albertsons.com
-
-emjuallocationsservice: 
-  baseUrl: https://emju-allocations-dev.apps.np.stratus.albertsons.com
-  healthurl: https://emju-allocations-dev.apps.np.stratus.albertsons.com
-  
-logging:
-  config: classpath:log/logback-np.xml
-
-coreservices:
-  timeOut: 2000
-
-gallery:
-  timeOut: 3000
-  
-storeinfo: 
-  timeOut: 2000 
-    
-kafka: 
-  producerEnabled: false
-
-reward:
-  baseUrl: https://rewards-atlas-sqai.safeway.com
-
-events:
-  new_registration:
-    enabled: false 
-    label: Welcome Offers
-    minOffersValidityDays: 14
-    stores: 
-    includeStore: true
-    registrationSource: sms, web, iOS, android, unknown, native-mobile, ABS-CEPS
-    divisionsConfigurationPath: static/divisionsConfiguration_np.json
-
-clippedofferservice:
-  hdrSwyClientId: CCARWRD
-  hdrSwyChannelType: CCA
-  applicationType: native-mobile,web
-  baseUri: /emrb/service/rewards/clipped-offers
-  url: ${reward.baseUrl}${clippedofferservice.baseUri}
-  timeOut: 2000
 
 gallerySimplification:
   enabled: true
