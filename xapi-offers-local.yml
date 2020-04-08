@@ -10,4 +10,4 @@ server:
 
 gallerySimplification:
   enabled: true 
-  configPath: divisionsConfiguration_local.json  
+  configPath: classpath:/divisionsConfiguration_local.json  
