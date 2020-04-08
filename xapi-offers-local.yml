@@ -1,1 +1,11 @@
 
+  
+---
+spring: 
+  profiles:
+    active: local
+              
+
+gallerySimplification:
+  enabled: true 
+  configPath: divisionsConfiguration_local.json  
