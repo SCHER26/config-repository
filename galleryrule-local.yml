@@ -1,16 +1,16 @@
 xapi-static-data: 
   galleryrules:
-    '248':
+    '249':
       ruleDesc: ItemYouBuy-WeeklyAdCoupon
       houseHoldIdEndings:
       acceptedEvents:
       purchaseIndicator: B
-    '910':
+    '911':
       ruleDesc: ItemYouBuy-WeeklyAdCoupon
       houseHoldIdEndings:
       acceptedEvents: 
       purchaseIndicator: B
-    '1630':
+    '1631':
       ruleDesc: ItemYouBuy-WeeklyAdCoupon
       houseHoldIdEndings:
       acceptedEvents: 
