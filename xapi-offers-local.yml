@@ -10,9 +10,11 @@ server:
 
 gallerySimplification:
   enabled: true 
-  configPath: classpath:/divisionsConfiguration_local.json  
+  configPath: classpath1:/divisionsConfiguration_local.json  
 
-
+xapi-staticcontent-data:
+  galleryRule:
+  
 xapi-static-data:
   galleryrules:
     '248':
