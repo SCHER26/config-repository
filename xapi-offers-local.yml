@@ -13,7 +13,19 @@ gallerySimplification:
   configPath: classpath1:/divisionsConfiguration_local.json  
 
 xapi-staticcontent-data:
-  galleryRule:
+  galleryRule
+    '248':
+      ruleDesc: ItemYouBuy-WeeklyAdCoupon
+      houseHoldIdEndings:
+      - '1'
+      - '2'
+      - '3'
+      acceptedEvents:
+      - Weekly Ad Coupons
+      purchaseIndicator: B
+      enableSCOffers: 'false'
+      enableMFOffers: 'false'
+      enablePDOffers: 'true'
   
 xapi-static-data:
   galleryrules:
