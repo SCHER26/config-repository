@@ -1,27 +1,27 @@
 ---
 xapi-static-data: 
   galleryrules:
-    '249':
-      ruleDesc: ItemYouBuy-WeeklyAdCoupon
+    "249":
+      ruleDesc: "ItemYouBuy-WeeklyAdCoupon"
       houseHoldIdEndings:
       acceptedEvents:
-      purchaseIndicator: B
-    '911':
-      ruleDesc: ItemYouBuy-WeeklyAdCoupon
+      purchaseIndicator: "B"
+    "911":
+      ruleDesc: "ItemYouBuy-WeeklyAdCoupon"
       houseHoldIdEndings:
       acceptedEvents: 
-      purchaseIndicator: B
-    '1631':
-      ruleDesc: ItemYouBuy-WeeklyAdCoupon
+      purchaseIndicator: "B"
+    "1631":
+      ruleDesc: "ItemYouBuy-WeeklyAdCoupon"
       houseHoldIdEndings:
       acceptedEvents: 
-      purchaseIndicator: B
-    '1953':
-      ruleDesc: MinusMF-WeeklyAdCoupon
+      purchaseIndicator: "B"
+    "1953":
+      ruleDesc: "MinusMF-WeeklyAdCoupon"
       houseHoldIdEndings:
       acceptedEvents:
-    '3031':
-      ruleDesc: MinusMF-WeeklyAdCoupon
+    "3031":
+      ruleDesc: "MinusMF-WeeklyAdCoupon"
       houseHoldIdEndings:
       acceptedEvents:
-      enablePDOffers: 'true'
+      enablePDOffers: true
