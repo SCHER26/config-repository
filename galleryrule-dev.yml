@@ -1,0 +1,8 @@
+---
+xapi-static-data : 
+    galleryrules : 
+        55 :
+            ruleDesc: "ItemYouBuy-WeeklyAdCoupon55"
+        12 :
+            ruleDesc: "ItemYouBuy-WeeklyAdCoupon22"
+              
