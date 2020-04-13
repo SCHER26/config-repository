@@ -20,7 +20,7 @@ xapi-static-data :
             acceptedEvents: 
                 - "Weekly Ad Coupons"
             purchaseIndicator: B
-	1630 :
+        1630 : 
             ruleDesc: "ItemYouBuy-WeeklyAdCoupon"
             houseHoldIdEndings: 
                 - "1"
