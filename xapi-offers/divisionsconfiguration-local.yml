@@ -1,6 +1,6 @@
 ---
 xapi-static-data : 
-    instantallocationrules : 
+    eventDivisions : 
         18 :
             banners: 
                 - "safeway"
