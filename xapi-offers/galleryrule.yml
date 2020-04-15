@@ -2,7 +2,7 @@
 ---
 xapi-static-data : 
     galleryrules : 
-        1952 :
+        1953 :
             ruleDesc: "MinusMF-WeeklyAdCoupon"
             houseHoldIdEndings: 
                 - "3"
