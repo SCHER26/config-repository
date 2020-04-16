@@ -5,6 +5,11 @@ spring:
     active: local
     
               
-server:
-  port: 9003              
-
+events:
+  new_registration:
+    enabled: true
+    label: Welcome Offers
+    minOffersValidityDays: 14
+    stores: 535,9713
+    includeStore: true
+    registrationSource: sms, web, iOS, android, unknown, native-mobile
