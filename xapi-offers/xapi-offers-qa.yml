@@ -2,11 +2,11 @@
 ---
 spring: 
   profiles:
-    active: dev
+    active: qa
     
-kafka: 
+kafka:
   producerEnabled: false
-
+              
 events:
   new_registration:
     enabled: true
@@ -16,7 +16,6 @@ events:
     includeStore: true
     registrationSource: sms, web, iOS, android, unknown, native-mobile, ABS-CEPS
 
-
+            
 gallerySimplification:
   enabled: false
-

@@ -2,10 +2,11 @@
 ---
 spring: 
   profiles:
-    active: dev
+    active: perf
     
+              
 kafka: 
-  producerEnabled: false
+  producerEnabled: false              
 
 events:
   new_registration:
@@ -19,4 +20,3 @@ events:
 
 gallerySimplification:
   enabled: false
-

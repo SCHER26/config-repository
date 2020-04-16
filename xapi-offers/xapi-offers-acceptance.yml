@@ -2,10 +2,14 @@
 ---
 spring: 
   profiles:
-    active: dev
+    active: acceptance
     
+              
 kafka: 
-  producerEnabled: false
+  producerEnabled: false   
+
+gallerySimplification:
+  enabled: false
 
 events:
   new_registration:
@@ -14,9 +18,5 @@ events:
     minOffersValidityDays: 14
     stores: 9611,9713,535,1118,3775,116,3088,3770,3073,122
     includeStore: true
-    registrationSource: sms, web, iOS, android, unknown, native-mobile, ABS-CEPS
-
-
-gallerySimplification:
-  enabled: false
+    registrationSource: sms, web, iOS, android, unknown, native-mobile, ABS-CEPS          
 
