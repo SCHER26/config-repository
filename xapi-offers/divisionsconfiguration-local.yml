@@ -1,18 +1,12 @@
 ---
 xapi-static-data : 
     eventDivisions : 
-        17 :
+        20 :
             banners: 
-                - "safeway"
                 - "albersons"
                 - "vons"
             eventStartDateTime: "2020-01-01T00:00:00+00:00"
             eventEndDateTime: "2020-02-01T23:59:59+00:00"
-        26 :
-            banners: 
-                - "safeway"
-            eventStartDateTime: "2020-01-01T00:00:00+00:00"
-            eventEndDateTime: "2020-12-31T23:59:59+00:00"
         27 :
             banners: 
                 - "safeway"
