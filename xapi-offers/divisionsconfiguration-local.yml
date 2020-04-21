@@ -18,7 +18,7 @@ xapi-static-data :
                 - "vons"
             eventStartDateTime: "2020-01-01T00:00:00+00:00"
             eventEndDateTime: "2020-12-31T23:59:59+00:00"
-        32 :
+        33 :
             banners: 
                 - "jewelosco"
             eventStartDateTime: "2020-01-01T00:00:00+00:00"
