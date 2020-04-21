@@ -7,9 +7,9 @@ spring:
               
 events:
   new_registration:
-    enabled: true
+    enabled: false
     label: Welcome Offers5
     minOffersValidityDays: 14
     stores: 9611,9713,535,1118,3775,116,3088,3770,3073,122,244 
     includeStore: true
-    registrationSource: sms, web, iOS, android, unknown, ABS-CEPS6
+    registrationSource: sms, web, iOS, android, unknown
