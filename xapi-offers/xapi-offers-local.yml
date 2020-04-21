@@ -7,9 +7,9 @@ spring:
               
 events:
   new_registration:
-    enabled: false
+    enabled: true
     label: Welcome Offers
-    minOffersValidityDays: 10
-    stores: 9611,9713,535,1118,3775,116,3088,3770,3073,122,244 
+    minOffersValidityDays: 20
+    stores: 9612,9713,535,1118,3775,116,3088,3770,3073,122,244 
     includeStore: true
     registrationSource: sms, web, iOS, android, unknown
