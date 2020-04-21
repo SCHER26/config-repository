@@ -2,15 +2,6 @@
 ---
 xapi-static-data : 
     galleryrules : 
-        1953 :
-            ruleDesc: "MinusMF-WeeklyAdCoupon"
-            houseHoldIdEndings: 
-                - "3"
-                - "9"
-            acceptedEvents: 
-                - "Weekly Ad Coupons"
-                - "Emilie Thanksgiving"
-                - "2000NewEvent2"
         248 :
             ruleDesc: "ItemYouBuy-WeeklyAdCoupon"
             houseHoldIdEndings: 
