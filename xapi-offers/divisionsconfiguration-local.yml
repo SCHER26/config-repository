@@ -1,7 +1,7 @@
 ---
 xapi-static-data : 
     eventDivisions : 
-        25 :
+        26 :
             banners: 
                 - "albersons"
                 - "vons"
