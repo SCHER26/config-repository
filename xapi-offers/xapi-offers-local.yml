@@ -10,6 +10,6 @@ events:
     enabled: true
     label: Welcome Offers
     minOffersValidityDays: 20
-    stores: 9612,9713,535,1118,3775,116,3088,3770,3073,122,244 
+    stores:  
     includeStore: true
     registrationSource: sms, web, iOS, android, unknown
