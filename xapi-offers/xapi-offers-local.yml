@@ -13,3 +13,7 @@ events:
     stores:  
     includeStore: true
     registrationSource: sms, web, iOS, android, unknown
+
+gallerySimplification:
+  enabled: true
+    
